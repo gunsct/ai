@@ -1,0 +1,13 @@
+﻿Build started 2015-03-14 오후 10:18:24.
+     1>Project "C:\Users\leo\Dropbox\Teaching\Game AI\source\VS2010\Buckland_Chapter2-State Machines\WestWorld1\WestWorld1.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/WestWorld1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/WestWorld1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\WestWorld1.lib" /MACHINE:X86 /SAFESEH .\Release/BaseGameEntity.obj
+         .\Release/main.obj
+         .\Release/Miner.obj
+         .\Release/MinerOwnedStates.obj
+     1>.\Release/main.obj : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "C:\Users\leo\Dropbox\Teaching\Game AI\source\VS2010\Buckland_Chapter2-State Machines\WestWorld1\WestWorld1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.86

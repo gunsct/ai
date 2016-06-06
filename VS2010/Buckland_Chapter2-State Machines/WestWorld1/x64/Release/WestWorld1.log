@@ -1,0 +1,21 @@
+﻿Build started 2015-03-14 오후 10:16:12.
+     1>Project "C:\Users\leo\Dropbox\Teaching\Game AI\source\VS2010\Buckland_Chapter2-State Machines\WestWorld1\WestWorld1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /errorReport:prompt BaseGameEntity.cpp main.cpp Miner.cpp MinerOwnedStates.cpp
+         BaseGameEntity.cpp
+         main.cpp
+         Miner.cpp
+         MinerOwnedStates.cpp
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\leo\Dropbox\Teaching\Game AI\source\VS2010\Buckland_Chapter2-State Machines\WestWorld1\x64\Release\WestWorld1.exe) does not match the Linker's OutputFile property value (C:\Users\leo\Dropbox\Teaching\Game AI\source\VS2010\Buckland_Chapter2-State Machines\WestWorld1\Release\WestWorld1.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/WestWorld1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/WestWorld1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\leo\Dropbox\Teaching\Game AI\source\VS2010\Buckland_Chapter2-State Machines\WestWorld1\x64\Release\WestWorld1.lib" /MACHINE:X64 .\Release/BaseGameEntity.obj
+         .\Release/main.obj
+         .\Release/Miner.obj
+         .\Release/MinerOwnedStates.obj
+         WestWorld1.vcxproj -> C:\Users\leo\Dropbox\Teaching\Game AI\source\VS2010\Buckland_Chapter2-State Machines\WestWorld1\x64\Release\WestWorld1.exe
+     1>Done Building Project "C:\Users\leo\Dropbox\Teaching\Game AI\source\VS2010\Buckland_Chapter2-State Machines\WestWorld1\WestWorld1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.70
